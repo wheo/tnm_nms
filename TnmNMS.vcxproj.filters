@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{ccd8ded8-4527-4350-8878-368c23ace957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SNMP">
+      <UniqueIdentifier>{15f177ea-f9d5-42e1-9197-0579610b27c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TnmNMS.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TnmMisc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SubLogDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SubServerMgrDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TnmNMSDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SubServerListDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SubServerCtrlDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStcGroup.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupGroupInfoDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AsnType.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPException.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPLogger.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPManager.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPObject.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPRemoteAgent.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPRemoteAgentSet.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPRequest.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPRequestSet.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPSession.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPTracer.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SNMPTrap.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="CommSNMP.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SnmpTrapParser.h">
+      <Filter>SNMP</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupNetworkDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFileAlarm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SubLogHistoryDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="XLAutomation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="XLEzAutomation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TnmNMS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TnmMisc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SubServerMgrDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SubLogDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TnmNMSDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SubServerListDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SubServerCtrlDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStcGroup.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupGroupInfoDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AsnType.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPException.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPLogger.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPManager.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPObject.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPRemoteAgent.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPRemoteAgentSet.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPRequest.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPRequestSet.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPSession.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPTracer.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SNMPTrap.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="CommSNMP.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SnmpTrapParser.cpp">
+      <Filter>SNMP</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupNetworkDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFileAlarm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SubLogHistoryDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="XLAutomation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="XLEzAutomation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TnmNMS.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TnmNMS.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TnmNMS.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_exit.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_min.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_full.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
